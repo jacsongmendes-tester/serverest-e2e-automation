@@ -9,8 +9,8 @@
     "cypress": "^13.16.1"
   },
   "scripts": {
-    "cy:test-headless": "cypress run",
-    "cy:test-ui": "cypress open"
+    "cy:test-headless-dev": "cypress run --browser chrome --env ENV=dev",
+    "cy:test-ui-dev": "cypress open --browser chrome --env ENV=dev"
   },
   "author": "Jacson Mendes",
   "license": "ISC"

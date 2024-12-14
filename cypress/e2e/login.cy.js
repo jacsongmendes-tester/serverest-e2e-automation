@@ -11,7 +11,7 @@ describe('Login Tests', () => {
   })
 
   it('Should login successfully with valid credentials', () => {
-    cy.loginUser("jacson.gomes@outlook.com", "Jacson@2024")
+    cy.loginUser()
     cy.get(homeElements.btnLogout()).should('be.visible')
   });
 

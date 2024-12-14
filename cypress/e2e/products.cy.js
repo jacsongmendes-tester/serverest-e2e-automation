@@ -8,7 +8,7 @@ describe('Products Tests', () => {
 
   beforeEach(() => {
     cy.visitLoginPage()
-    cy.loginUser("jacson.gomes@outlook.com", "Jacson@2024")
+    cy.loginUser()
   })
 
   it('Should display a list of available products on the home page', () => {
