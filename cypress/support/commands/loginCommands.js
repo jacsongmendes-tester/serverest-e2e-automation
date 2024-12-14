@@ -8,7 +8,6 @@ Cypress.Commands.add('setEnvironmentVariables', () => {
     Cypress.env('password', Cypress.env(environment).password)
 });
 
-
 Cypress.Commands.add('visitLoginPage', () => {
     cy.visit(`${Cypress.env('baseUrl')}/login`)
 });
