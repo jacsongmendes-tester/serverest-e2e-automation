@@ -1,4 +1,4 @@
-![Logo](https://front.serverest.dev/static/media/serverestlogo1.532833ba.png)
+<img src="https://front.serverest.dev/static/media/serverestlogo1.532833ba.png" alt="Logo" width="200">
 
 # ServeRest Automation E2E Project
 
