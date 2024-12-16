@@ -15,5 +15,7 @@ export default class LoginElements {
         return '[role="alert"] span'
     }
 
-
+    btnRegister(){
+        return '[data-testid="cadastrar"]'
+    }
 }
